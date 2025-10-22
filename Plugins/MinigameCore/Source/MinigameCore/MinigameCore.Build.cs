@@ -14,7 +14,7 @@ public class MinigameCore : ModuleRules
 			{
 				"Core", "BashCore", "LimbitlessBluetoothPlugin",
 				"LevelSequence", "MovieScene",
-				"UMG", "InputCore", "EnhancedInput"
+				"UMG", "InputCore", "EnhancedInput", "CustomizableObject"
 			}
 			);
 			

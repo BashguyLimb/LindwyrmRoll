@@ -7,13 +7,26 @@ public class BashCore : ModuleRules
 	public BashCore(ReadOnlyTargetRules Target) : base(Target)
 	{
 		bUsePrecompiled = true;
+		
+		PublicIncludePaths.AddRange(
+			new string[] {
+				// ... add public include paths required here ...
+			}
+			);
+				
+		
+		PrivateIncludePaths.AddRange(
+			new string[] {
+				// ... add other private include paths required here ...
+			}
+			);
 			
 		
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
 				"Core", "LimbitlessBluetoothPlugin",
-				"UMG", "InputCore", "EnhancedInput"
+				"UMG", "InputCore", "EnhancedInput", "CustomizableObject"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
